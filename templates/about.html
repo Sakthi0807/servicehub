@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohangandhi Solution - About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}">
+</head>
+<body class="bg-body-secondary">
+    
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-white" href="{{url_for('home')}}">Mohangandhi Solution</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto mt-3 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="{{url_for('home')}}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{{url_for('services')}}">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{{url_for('about')}}">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{{url_for('contact')}}">Contact</a>
+              </li>
+            </ul>
+            <a href="{{url_for('joinus')}}" class="btn btn-warning">Join US</a>
+          </div>
+        </div> 
+    </nav>
+     <!-- Hero Section -->
+     <div class="container my-5 text-center">
+        <h1 class="text-dark">About Us</h1>
+        <p class="text-muted">Learn more about who we are and what we stand for.</p>
+    </div>
+
+    <hr class="fancy-hr dashed">
+
+    <!-- Welcome Section -->
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h2>Welcome to <span class="text-warning">Mohangandhi Solution</span></h2>
+            <p>We are dedicated to connecting you with trusted professionals for your service needs. Whether it’s electrical repairs, plumbing, or CCTV installations, our mission is to make life easier with reliable and efficient solutions.</p>
+        </div>
+        <div class="col-md-6">
+            <!-- Comapny Location Section -->
+            <h4>Our Location</h4>
+            <p>Thaikkal 1st Street, Madurai, Tamil Nadu, 625001</p>
+            <div class="map-container" style="height: 300px;">
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.63101288501807!2d78.12080284444374!3d9.925945412950881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c58fc874639f%3A0x1daab0600b09b38f!2sAnnamalai%20Theatre!5e0!3m2!1sen!2sin!4v1735453754172!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Mission Section -->
+    <div class="bg-warning text-white py-5">
+        <div class="container text-center">
+            <h2>Our Mission</h2>
+            <p>To provide a seamless and dependable platform for booking professional services, making everyday challenges easier and stress-free for our customers.</p>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="container my-5">
+        <h2 class="text-center">Meet Our Team</h2>
+        <p class="text-center">We are a team of passionate individuals committed to delivering the best services to our customers.</p>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member">
+                <h5>John Doe</h5>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member">
+                <h5>Jane Smith</h5>
+                <p>Operations Manager</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member">
+                <h5>Alex Brown</h5>
+                <p>Customer Support Lead</p>
+            </div>
+        </div>
+    </div>
+   <!-- Footer Section-->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Mohangandhi Solution. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

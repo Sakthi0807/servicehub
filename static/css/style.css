@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-top: 21px;
+}
+.pic{
+  width: 500px;
+  margin-top: 30px;
+}
+@media (min-width: 1200px){
+  .home{
+    margin-top: 100px;
+  }
+}
+/* Custom Styling for hr */
+ 
+hr {
+  border: 0;
+  height: 1px;
+  background: #ffc107;
+  margin: 40px 0;
+}
+
+/* Custom hr styles for decoration */
+.fancy-hr {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #ffc107, #ffca2c);
+  margin: 50px 0;
+}
+
+.fancy-hr.dashed {
+  border-top: 2px dashed #ffc107,;
+}
+
+.img1{
+  width: 200px;
+  height: 200px;
+}
+.img2{
+  width: 250px;
+  height: 230px;
+}
+.img3{
+  width: 230px;
+  height: 200px;
+}
+
+.contact-box {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.booking-box{
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
